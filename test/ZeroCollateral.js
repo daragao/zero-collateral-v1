@@ -72,6 +72,7 @@ contract('test all the things', accounts => {
 
             await zeroCollateral.repayBorrow(13, { from: alice })
 
+            // maxBorrow value does not seem to go down :()
             console.log('maxBorrow:', (await zeroCollateral.maxBorrow.call({ from: alice })).toString())
 
         }
