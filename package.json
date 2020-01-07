@@ -1,0 +1,30 @@
+{
+  "name": "zero-collateral-v1",
+  "version": "1.0.0",
+  "description": "Zero Collateral V1 is a composition of smart contracts which create the potocol. These contracts enable digital asset holders on the Ethereum blockchain to engage in decentralized, lending and borrowing acitivites, with down to zero collateral.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "truffle": "^5.1.7",
+    "ganache-cli": "^6.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "deploy": "truffle deploy",
+    "ganache-cli": "ganache-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daragao/zero-collateral-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daragao/zero-collateral-v1/issues"
+  },
+  "homepage": "https://github.com/daragao/zero-collateral-v1#readme"
+}

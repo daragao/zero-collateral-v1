@@ -1,3 +1,5 @@
+**me playing around with the Zero Collateral V1 Protocol which seems a cool project**
+
 # Zero Collateral V1 Protocol
 Zero Collateral V1 is a composition of smart contracts which create the potocol. These contracts enable digital asset holders
 on the Ethereum blockchain to engage in decentralized, lending and borrowing acitivites, with down to zero collateral.

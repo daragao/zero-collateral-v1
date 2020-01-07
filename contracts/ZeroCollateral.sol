@@ -17,9 +17,15 @@
 pragma solidity 0.5.0;
 pragma experimental ABIEncoderV2;
 
+/*
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/math/SafeMath.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/access/roles/MinterRole.sol";
+*/
+// small change in order for truffle ot work properly
+import "@openzeppelin/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/roles/MinterRole.sol";
 
 
 /**
