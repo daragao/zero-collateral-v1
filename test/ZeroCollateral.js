@@ -60,19 +60,18 @@ contract('test all the things', accounts => {
 
         // console.log(await zeroCollateral.getRedemptionPool.call())
 
-        for(let i = 0; i < 10; i++) {
+        for(let i = 0; i < 20; i++) {
             await printBalance()
             await printBalanceAlice()
 
             // await zeroCollateral.borrowInitiated(console.log) // subscribe to event
-            await zeroCollateral.createBorrow(10, { from: alice })
+            await zeroCollateral.createBorrow(100, { from: alice })
 
             await printBalance()
             await printBalanceAlice()
 
-            await zeroCollateral.repayBorrow(13, { from: alice })
+            await zeroCollateral.repayBorrow(120, { from: alice })
 
-            // maxBorrow value does not seem to go down :()
             console.log('maxBorrow:', (await zeroCollateral.maxBorrow.call({ from: alice })).toString())
 
         }
